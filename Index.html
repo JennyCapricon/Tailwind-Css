@@ -4,29 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Site</title>
-
-    <!-- Step 9: Custom Font (add link here later) -->
-
-    <!-- Tailwind Config (add before CDN) -->
   </head>
   <body class="bg-white text-gray-900">
-    <!-- STEP 1: NAVBAR -->
-    <!-- Navbar -->
     <nav
       class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
-
-            
-          <!-- Logo -->
           <div class="flex items-center">
             <span class="font-bold text-xl text-gray-800 dark:text-white">
               MyBrand
             </span>
           </div>
 
-          <!-- Desktop Menu -->
           <div class="hidden md:flex items-center space-x-8">
             <a
               href="#"
@@ -44,7 +34,6 @@
               >About</a
             >
 
-            <!-- Dark Mode Toggle -->
             <button
               onclick="toggleDark()"
               class="text-gray-700 dark:text-gray-300 hover:text-yellow-500 text-xl"
@@ -52,7 +41,6 @@
               🌙
             </button>
 
-            <!-- CTA Button -->
             <a
               href="#"
               class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
@@ -61,9 +49,7 @@
             </a>
           </div>
 
-          <!-- Mobile Controls -->
           <div class="md:hidden flex items-center space-x-4">
-            <!-- Dark Mode Toggle -->
             <button
               onclick="toggleDark()"
               class="text-gray-700 dark:text-gray-300 text-xl"
@@ -71,7 +57,6 @@
               🌙
             </button>
 
-            <!-- Hamburger -->
             <button
               onclick="toggleMenu()"
               class="text-gray-700 dark:text-gray-300 text-2xl"
@@ -82,7 +67,6 @@
         </div>
       </div>
 
-      <!-- Mobile Menu -->
       <div id="mobileMenu" class="hidden md:hidden px-4 pb-4">
         <a href="#" class="block py-2 text-gray-700 dark:text-gray-300"
           >Features</a
@@ -103,8 +87,58 @@
     </nav>
 
     <!-- STEP 2: HERO -->
+    <!-- Hero Section -->
+    <section class="py-20 md:py-32 px-6 text-center bg-white dark:bg-gray-900">
+      <div class="max-w-5xl mx-auto">
+        <!-- Optional Badge -->
+        <div class="mb-6">
+          <span
+            class="bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300 rounded-full px-3 py-1 text-xs font-semibold"
+          >
+            Now in Beta
+          </span>
+        </div>
+
+        <!-- Headline -->
+        <h1
+          class="text-5xl md:text-6xl lg:text-7xl font-black leading-tight text-gray-900 dark:text-white"
+        >
+          Build Smarter. Launch Faster.
+        </h1>
+
+        <!-- Subheadline -->
+        <p
+          class="mt-6 text-lg md:text-xl text-gray-500 dark:text-gray-400 max-w-2xl mx-auto"
+        >
+          Our platform helps you design, develop, and deploy beautiful products
+          without the complexity. Everything you need, in one powerful tool.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div
+          class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+        >
+         
+          <a
+            href="#"
+            class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 w-full sm:w-auto"
+          >
+            Get Started
+          </a>
+
+          
+          <a
+            href="#"
+            class="border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-300 w-full sm:w-auto"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- STEP 3: SOCIAL PROOF -->
+     
 
     <!-- STEP 4: FEATURES -->
 
