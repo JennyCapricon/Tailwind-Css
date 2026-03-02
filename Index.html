@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Site</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-white text-gray-900">
     <nav
@@ -118,7 +119,6 @@
         <div
           class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-         
           <a
             href="#"
             class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 w-full sm:w-auto"
@@ -126,7 +126,6 @@
             Get Started
           </a>
 
-          
           <a
             href="#"
             class="border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-300 w-full sm:w-auto"
@@ -138,7 +137,50 @@
     </section>
 
     <!-- STEP 3: SOCIAL PROOF -->
-     
+    <!-- Social Proof Bar -->
+    <section
+      class="py-10 px-6 border-t border-b border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900"
+    >
+      <div class="max-w-6xl mx-auto text-center">
+        <!-- Label -->
+        <p class="text-sm text-gray-400 uppercase tracking-widest mb-6">
+          Trusted by teams at
+        </p>
+
+        <!-- Company Badges -->
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <div
+            class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm font-semibold px-4 py-2 rounded-lg"
+          >
+            Google
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm font-semibold px-4 py-2 rounded-lg"
+          >
+            Spotify
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm font-semibold px-4 py-2 rounded-lg"
+          >
+            Airbnb
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm font-semibold px-4 py-2 rounded-lg"
+          >
+            Slack
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm font-semibold px-4 py-2 rounded-lg"
+          >
+            Stripe
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- STEP 4: FEATURES -->
 
