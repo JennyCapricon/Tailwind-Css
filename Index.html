@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Site</title>
+
+    <!-- Step 9: Custom Font (add link here later) -->
+
+    <!-- Tailwind Config (add before CDN) -->
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- STEP 1: NAVBAR -->
+    <!-- Navbar -->
+    <nav
+      class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+
+            
+          <!-- Logo -->
+          <div class="flex items-center">
+            <span class="font-bold text-xl text-gray-800 dark:text-white">
+              MyBrand
+            </span>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#"
+              class="text-gray-700 dark:text-gray-300 hover:text-blue-600"
+              >Features</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 dark:text-gray-300 hover:text-blue-600"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 dark:text-gray-300 hover:text-blue-600"
+              >About</a
+            >
+
+            <!-- Dark Mode Toggle -->
+            <button
+              onclick="toggleDark()"
+              class="text-gray-700 dark:text-gray-300 hover:text-yellow-500 text-xl"
+            >
+              🌙
+            </button>
+
+            <!-- CTA Button -->
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+            >
+              Get Started
+            </a>
+          </div>
+
+          <!-- Mobile Controls -->
+          <div class="md:hidden flex items-center space-x-4">
+            <!-- Dark Mode Toggle -->
+            <button
+              onclick="toggleDark()"
+              class="text-gray-700 dark:text-gray-300 text-xl"
+            >
+              🌙
+            </button>
+
+            <!-- Hamburger -->
+            <button
+              onclick="toggleMenu()"
+              class="text-gray-700 dark:text-gray-300 text-2xl"
+            >
+              ☰
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobileMenu" class="hidden md:hidden px-4 pb-4">
+        <a href="#" class="block py-2 text-gray-700 dark:text-gray-300"
+          >Features</a
+        >
+        <a href="#" class="block py-2 text-gray-700 dark:text-gray-300"
+          >Pricing</a
+        >
+        <a href="#" class="block py-2 text-gray-700 dark:text-gray-300"
+          >About</a
+        >
+        <a
+          href="#"
+          class="block mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg text-center"
+        >
+          Get Started
+        </a>
+      </div>
+    </nav>
+
+    <!-- STEP 2: HERO -->
+
+    <!-- STEP 3: SOCIAL PROOF -->
+
+    <!-- STEP 4: FEATURES -->
+
+    <!-- STEP 5: BENTO HIGHLIGHT -->
+
+    <!-- STEP 6: PRICING -->
+
+    <!-- STEP 7: TESTIMONIALS -->
+
+    <!-- STEP 8: CTA BANNER -->
+
+    <!-- STEP 9: FOOTER -->
+  </body>
+</html>
